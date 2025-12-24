@@ -1,11 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
-import { FiguresComponent } from './components/figures/figures.component';
 
 @Component({
     selector: 'app-root',
-    imports: [RouterOutlet, ReactiveFormsModule, FiguresComponent],
+    imports: [RouterOutlet],
     templateUrl: './app.html',
     styleUrl: './app.css',
 })
